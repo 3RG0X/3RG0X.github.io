@@ -722,7 +722,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-weight: 300;
     position: relative;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     margin-top: 150px;
     margin-bottom: 200px;
     z-index: 3;
