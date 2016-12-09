@@ -724,9 +724,19 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     text-align: center;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     z-index: 3;
 }
+
+.main .c-soon{
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    z-index: 3;
+}
+
 .main .logo.cursive{
     font-family: 'Grand Hotel',cursive;
     font-size: 82px;
