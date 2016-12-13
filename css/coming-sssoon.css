@@ -7,6 +7,12 @@ Made with love by Creative Tim (http://www.creative-tim.com)
 body{
     
 }
+
+@font-face {
+    font-family: 'Chiquita Normal';
+    src: url('./Chiquita_Normal.ttf');
+}
+
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
@@ -717,8 +723,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     width: 60px
 }
 .main .logo{
+    font-family: 'Chiquita Normal';
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 300;
     position: relative;
     text-align: center;
@@ -732,7 +739,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #FFFFFF;
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 150px;
     z-index: 3;
 }
