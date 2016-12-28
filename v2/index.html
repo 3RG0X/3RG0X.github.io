@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Nucleus | Startup Landing Page</title>
+  <title>Shortcut</title>
 
   <!--SEO Meta Tags-->
   <meta name="description" content="Nucleus Multi-Purpose Technology Template" />
@@ -24,6 +24,16 @@
     @font-face {
       font-family: "Chiquita Normal";
       src: url("./fonts/Chiquita_Normal.ttf");
+    }
+
+    @font-face {
+      font-family: "RaidCrusader";
+      src: url("./fonts/raidercrusader.ttf");
+    }
+
+    @font-face {
+      font-family: "RaidCrusaderItal";
+      src: url("./fonts/raidercrusaderital.ttf");
     }
 
     a {
@@ -55,16 +65,15 @@
     <header class="navbar navbar-sticky">
       
       <!-- Toolbar -->
-      <div class="topbar" style="background-color: #333;">
-        <div class="container text-light">
-            <h2 style="font-family: 'Chiquita Normal'; margin-bottom: 0px; font-size: 60px;">Shortcut</h2>
-          <h4 class="text-normal" style="text-transform: uppercase;">Open source ergonomic gaming keyboard</h4>
+      <div class="topbar">
+        <div class="container">
+            <a style="font-family: 'RaidCrusaderItal'; font-size: 45px;">Shortcut</a>
           <!-- Mobile Menu Toggle -->
-          <div class="nav-toggle"><span></span></div>
+          <div class="nav-toggle" style="height: 67px"><span></span></div>
 
           <div class="toolbar">
-            <a class="text-light" href="#">AMA</a>
-            <a class="text-light" href="#">Blog</a>
+            <!-- <a href="#">AMA</a> -->
+            <a href="#">Blog</a>
           </div><!-- .toolbar -->
         </div><!-- .container -->
       </div><!-- .topbar -->
@@ -77,43 +86,51 @@
 
     <!-- Intro Section -->
     <!-- Fullwidth section has bunch of modifier classes to alter its appearance: ".border-top, .border-bottom, .arrow-top, .arrow-bottom, .bg-gray, .bg-default, .bg-primary, .bg-parallax". They can be used separately or alltogether. -->
-    <section class="fw-section padding-top-3x bg-parallax padding-bottom-2x text-center text-light" style="height: 100vh; background-image: url(img/home-bg.png); background-position: 0% 0%">
+    <section class="fw-section padding-top-3x bg-parallax padding-bottom-2x text-center text-light" style="background-image: url(img/home-bg.jpg); background-position: 0% 0%">
       <div class="overlay" style="opacity: .5;"></div>
       <div class="container padding-top-3x padding-bottom-3x">
-        <h1 style="text-transform: uppercase;">Incresead Performance Comfort Health<span style="color: #990000"> for gamers</span></h1>
+        <h1 style="text-transform: uppercase;">Open source ergonomic gaming keyboard</h1>
+        <div class="video-popup-btn small-btn padding-top-2x padding-bottom">
+          <a href="https://www.youtube.com/watch?v=fyb2KC-q7ls" class="play-btn waves-effect waves-light"><i class="icon-play"></i></a>
+        </div>
+        <h2>Performance, Comfort & Health For Gamers</h2>
+        <h4>The first gaming keyboard designed to fulfill the needs of todays gamers.</h4>
       </div><!-- .container -->
     </section><!-- .fw-section -->
 
     <!-- Text + Image -->
     <section class="container padding-top-3x padding-bottom-3x">
       <div class="row">
-        <div class="col-md-5 col-md-push-7 text-center tablet-center mobile-center scrollReveal sr-right">
+        <div class="col-md-5 col-md-push-7 tablet-center mobile-center scrollReveal sr-right">
           <!-- <div class="padding-top-2x hidden-sm hidden-xs"></div> -->
-          <h2>Help develop the Shortcut and win a prototype!</h2>
+          <h3>Help develop the Shortcut and win a prototype!</h3>
           <p class="text-lg text-gray">The Shortcut is on beta phase, that's why your feedback is so important.</p>
 
-          <p class="text-lg text-gray">By answering a couple of questions you'll help us develop the Shortcut and you'll have the chance of winning one of our first prototypes.</p>
-
-          <a href="#" class="btn btn-default">
-            I want to be a tester!
-          </a>
+          <p class="text-lg text-gray">By answering a couple of questions you'll have the chance to win a prototype and become one of our first testers.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-default">
+              I want to be a tester!
+            </a>
+          </div>
         </div>
-        <div class="col-md-7 col-md-pull-5 scrollReveal sr-left" style="text-align: center; height: 600px; padding-top: 90px">
-          <iframe width="630" height="420" src="https://www.youtube.com/embed/fyb2KC-q7ls" frameborder="0" allowfullscreen></iframe>
+        <div class="col-md-7 col-md-pull-5 scrollReveal sr-left">
+          <div class="padding-top-2x visible-sm visible-xs"></div>
+          <img src="./img/Shortcut_3.jpg" class="block-center" alt="Shortcut">
         </div>
       </div><!-- .row -->
     </section><!-- .container -->
 
     <!-- Features -->
-    <section class="fw-section bg-gray border-top border-bottom padding-top-3x padding-bottom-3x">
+    <section class="fw-section border-top padding-top-3x padding-bottom-3x">
       <div class="container">
         <h2 class="block-title text-center scrollReveal sr-bottom">
           The project's missions
         </h2>
+        <p class="text-center" style="text-transform: uppercase;">The Shortcut isn't just a gaming keyboard, we are aiming to set a new standard for peripherals</p>
         <div class="row padding-top">
-          <div class="col-md-3 scrollReveal sr-scaleUp sr-ease-in-out-back">
+          <div class="col-md-4 scrollReveal sr-scaleUp sr-ease-in-out-back">
             <div class="box-with-icon">
-              <div class="bwi-inner" style="background-color: #f6f6f6">
+              <div class="bwi-inner">
                 <div style="text-align: center;">
                   <div class="bwi-icon">
                     <img src="img/features/01.png" alt="Feature">
@@ -126,9 +143,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 scrollReveal sr-scaleUp sr-ease-in-out-back">
+          <div class="col-md-4 scrollReveal sr-scaleUp sr-ease-in-out-back">
             <div class="box-with-icon">
-              <div class="bwi-inner" style="background-color: #f6f6f6">
+              <div class="bwi-inner">
                 <div style="text-align: center;">
                   <div class="bwi-icon">
                     <img src="img/features/02.png" alt="Feature">
@@ -136,37 +153,22 @@
                 </div>
                 <div class="bwi-content">
                   <h3 class="bwi-title">Reduce Repeptitive Strain Injuries risk</h3>
-                  <p class="bwi-text">The thumb clusters and split design allow our wrist to be straight in every moment, reducing the risk of injuries such as Carpal Tunnel Syndrome. </p>
+                  <p class="bwi-text">The ergonomic design stops harmful wrist movements, reducing the risk of injuries such as Carpal Tunnel Syndrome.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-3 scrollReveal sr-scaleUp sr-ease-in-out-back">
+          <div class="col-md-4 scrollReveal sr-scaleUp sr-ease-in-out-back">
             <div class="box-with-icon">
-              <div class="bwi-inner" style="background-color: #f6f6f6">
-                <div style="text-align: center;">
-                  <div class="bwi-icon">
-                    <img src="img/features/03.png" alt="Feature">
-                  </div>
-                </div>
-                <div class="bwi-content">
-                  <h3 class="bwi-title">Fully adaptable to your needs</h3>
-                  <p class="bwi-text">With our configuration software you'll be able to rebind any key and create multiple layouts to adapt to your needs and habits.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 scrollReveal sr-scaleUp sr-ease-in-out-back">
-            <div class="box-with-icon">
-              <div class="bwi-inner" style="background-color: #f6f6f6">
+              <div class="bwi-inner">
                 <div style="text-align: center;">
                   <div class="bwi-icon">
                     <img src="img/features/04.png" alt="Feature">
                   </div>
                 </div>
                 <div class="bwi-content">
-                  <h3 class="bwi-title">Accessible for everyone</h3>
-                  <p class="bwi-text">We believe that without barriers we will develop in less time a better product. The designs, electronic schematics and software will be freely available to anyone.</p>
+                  <h3 class="bwi-title">No Barriers, Higher Quality Products</h3>
+                  <p class="bwi-text">The project is Open Source. The designs, electronic schematics and software will be freely available for everyone to modify and use.</p>
                 </div>
               </div>
             </div>
@@ -176,15 +178,44 @@
     </section><!-- .container -->
 
     <!-- Text + Image -->
+    <section class="fw-section bg-gray border-top border-bottom padding-top-3x padding-bottom-3x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 tablet-center mobile-center scrollReveal sr-left">
+            <h3>Shortcut's Key Features</h3>
+            
+            <h5>Hand Shape Design</h5>
+            <p class="text-lg text-gray">Different size and adjustable columns to adapt to our fingers length.</p>
+
+            <h5>Split Keyboard</h5>
+            <p class="text-lg text-gray">Straight wrists and more space for the mouse.</p>
+
+            <h5>Thumb Cluster</h5>
+            <p class="text-lg text-gray">No more wrist torsion when using the modifier keys.</p>
+
+            <h5>Fully Configurable Layouts</h5>
+            <p class="text-lg text-gray">Rebind any keys and create multiple layouts to adapt to your language preference and games you play.</p>
+            
+          </div>
+          <div class="col-md-7 scrollReveal sr-right">
+            <div class="padding-top-3x visible-sm visible-xs"></div>
+            <img src="./img/Shortcut_2.jpg" class="block-center" alt="Shortcut">
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </section><!-- .fw-section.bg-gray.border-top.border-bottom -->
+
+    <!-- Text + Image -->
     <section class="container padding-top-3x padding-bottom-3x">
       <div class="row">
         <div class="col-md-5 col-md-push-7 text-center tablet-center mobile-center scrollReveal sr-right">
-          <div class="padding-top-2x hidden-sm hidden-xs"></div>
+          <div class="padding-top-3x hidden-sm hidden-xs"></div>
+
           <p class="text-lg text-gray">"We shouldn't accept a mediocre tool just because it's been with us since we were born. With todays technology and human body knowledge we can create a keyboard designed to fulfill todays tasks and needs at a level never before was possible."</p>
         </div>
         <div class="col-md-7 col-md-pull-5 scrollReveal text-center sr-left">
           <div class="padding-top-2x visible-sm visible-xs"></div>
-          <img src="img/luis.jpg" class="block-center" alt="Laptop">
+          <img src="img/luis.jpg" style="border-radius: 100%; margin-bottom: 10px" class="block-center" alt="Deilor">
 
           <p><b>Luis "Deilor" Sevilla</b><br>
           <span class="text-gray">Two times EU LCS Champion<br>

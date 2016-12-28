@@ -5292,7 +5292,7 @@ p {
 }
 
 .text-lg {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .text-sm {
@@ -8790,7 +8790,7 @@ input[type="button"].btn-block {
   height: 2px;
   top: 50%;
   margin-top: -1px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .nav-toggle span:before, .nav-toggle span:after {
@@ -8799,7 +8799,7 @@ input[type="button"].btn-block {
   width: 36px;
   height: 2px;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
   -webkit-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
@@ -10106,7 +10106,7 @@ a.image-box {
   text-align: center;
   color: #fff;
   border: 6px solid #fff;
-  background-color: #2895f1;
+  background-color: #990000;
   border-radius: 50%;
   padding-left: 8px;
   margin-bottom: 26px;
@@ -10129,7 +10129,7 @@ a.image-box {
 
 .video-popup-btn .play-btn:hover,
 .video-popup-tile .play-btn:hover {
-  background-color: #0e7cd8;
+  background-color: #990000;
 }
 
 .video-popup-btn.small-btn .play-btn,
@@ -10171,14 +10171,14 @@ a.image-box {
   height: 120px;
   line-height: 124px;
   border: none;
-  background-color: rgba(40, 149, 241, 0.6);
+  background-color: #990000;
   -webkit-transition: background-color 0.4s;
   -o-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
 
 .video-popup-tile .play-btn:hover {
-  background-color: #2895f1;
+  background-color: #990000;
 }
 
 .video-popup-tile .video-popup-tile-title {
