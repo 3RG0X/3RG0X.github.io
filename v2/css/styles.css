@@ -5291,6 +5291,10 @@ p {
   margin-bottom: 24px;
 }
 
+.text-xl {
+  font-size: 24px;
+}
+
 .text-lg {
   font-size: 18px;
 }
@@ -6746,12 +6750,12 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  background-color: #990000;
+  background-color: #2895f1;
 }
 
-/*.btn-default:hover {
+.btn-default:hover {
   background-color: #0e7cd8;
-}*/
+}
 
 .btn-primary {
   background-color: #1bdb68;
@@ -10106,7 +10110,7 @@ a.image-box {
   text-align: center;
   color: #fff;
   border: 6px solid #fff;
-  background-color: #990000;
+  background-color: #2895f1;
   border-radius: 50%;
   padding-left: 8px;
   margin-bottom: 26px;
@@ -10129,7 +10133,7 @@ a.image-box {
 
 .video-popup-btn .play-btn:hover,
 .video-popup-tile .play-btn:hover {
-  background-color: #990000;
+  background-color: #0e7cd8;
 }
 
 .video-popup-btn.small-btn .play-btn,
