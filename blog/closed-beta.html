@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Shortcut Gaming Keyboard | Blog</title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Shortcut, an Ergonomic Gaming Keyboard designed to increases performance and reduce Repetitive Strain Injuries Risk." />
+  
+  <meta name="keywords" content="ergonomic, gaming, keyboard, deilor, esports, carpal, tunnel, RSI, shortcut, progamer" />
+
+  <meta name="author" content="Deilor and GuySake" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+ <!--  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="../css/styles.css" rel="stylesheet" media="screen">
+
+  <style type="text/css">
+    @font-face {
+      font-family: "Chiquita Normal";
+      src: url("../fonts/Chiquita_Normal.ttf");
+    }
+
+    @font-face {
+      font-family: "RaidCrusader";
+      src: url("../fonts/raidercrusader.ttf");
+    }
+
+    @font-face {
+      font-family: "RaidCrusaderItal";
+      src: url("../fonts/raidercrusaderital.ttf");
+    }
+
+    a {
+      border: none;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    table p {
+      margin-bottom: 7px;
+    }
+
+    .article-img {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+
+    .text-green {
+      color: green;
+    }
+
+    .text-red {
+      color: red;
+    }
+  </style>
+
+  <!--Modernizr / Detectizr-->
+  <script src="../js/vendor/modernizr.custom.js"></script>
+  <script src="../js/vendor/detectizr.min.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-88660937-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+<!-- Body -->
+<!-- "is-preloader preloading" is a helper classes if preloader is enabled. -->
+<!-- Adding/Removing class ".parallax" is enabling/disabling background parallax effect on elements with background images and attributes data-stellar-background-ratio applied to them. Make sure you also added/removed link to stellar.js script before </body>. -->
+<body class="is-preloader preloading parallax">
+  
+  <!-- Preloader -->
+  <!-- 
+      Data API:
+      data-spinner - Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+      data-screenbg - Screen background color. Hex, RGB or RGBA colors
+   -->
+  <div id="preloader" data-spinner="spinner1" data-screenbg="#fff"></div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <header class="navbar navbar-sticky">
+      
+      <!-- Toolbar -->
+      <div class="topbar">
+        <div class="container">
+            <a href="/" style="font-family: 'RaidCrusader'; font-size: 45px;">Shortcut</a>
+          <!-- Mobile Menu Toggle -->
+          <div class="nav-toggle" style="height: 67px"><span></span></div>
+
+          <div class="toolbar">
+            <!-- <a href="#">AMA</a> -->
+            <a href="/blog/">Blog</a>
+          </div><!-- .toolbar -->
+        </div><!-- .container -->
+      </div><!-- .topbar -->
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Content -->
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h1>Closed beta announcement and thought process behind it</h1>
+          <div class="post-meta">
+            <div class="column"><span>Luis "Deilor" Sevilla</span></div>
+            <div class="column"><span>14.02.2017</span></div>
+          </div><!-- .post-meta -->
+
+          <!-- <h4>Subheading</h4> -->
+          <p>Soon we will start our closed beta testing phase limited to only 50 testers. We will be selling the prototypes at cost to a hand picked highly engaged group of testers. Our goal is to test every aspect of the Shortcut to deliver the best possible device in a few months.</p>
+
+          <p>Before explaining what the closed beta testing phase is about, I would like to give you context and information about our developing process and decision making.</p>
+
+          <p>These are the Shortcut versions we’ve been working on for the last 3 months:</p>
+
+          <p>
+            <b>V3</b> - Announced on our web site and sent to the 5 giveaway winners
+            <div class="text-center">
+              <img class="article-img" src="./assets/closed-beta-1.png">
+              <img class="article-img" src="./assets/closed-beta-2.png">
+              <br />How electronics look
+            </div>
+          </p>
+
+          <p>
+            <b>V4</b> - Developed during December and January
+            <div class="text-center">
+              <img class="article-img" src="./assets/closed-beta-3.png">
+            </div>
+            <div class="text-center">
+              <img class="article-img" src="./assets/closed-beta-4.png">
+              <br />RGB Leds test
+            </div>
+            <div class="text-center">
+              <img class="article-img" src="./assets/closed-beta-5.png">
+              <br />Closer look to the PCB
+            </div>
+          </p>
+
+          <p>
+            Apart from the obvious aesthetics differences, there are important technical considerations.
+          </p>
+
+          <p>
+            V3 prototypes costs over 200€ to build, 10h to 3D print the case and 10h to solder and assemble. It’s a handcrafted keyboard that realistically can’t be manufactured even for a small run of 50 units. The electronic components are hand wired and mobile pieces make it less durable and resistant.
+          </p>
+
+          <p>
+            V4 costs less than 100€, barely no 3D printing and takes 3h to ensemble. All electronics are on a PCB and has no mobile pieces so it’s much more durable.
+          </p>
+
+          <p>
+            Let’s compare the features of each keyboard
+          </p>
+
+          <p>
+            Common features:
+
+            <ul>
+              <li>Mechanical switches</li>
+              <li>Ergonomic design</li>
+              <li>Split</li>
+              <li>Columnar</li>
+              <li>Thumb cluster</li>
+              <li>Integrated wrist rest</li>
+            </ul>
+
+            <table>
+              <tbody>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span>V3 features</span></p>
+                     </td>
+                     <td colspan="1" rowspan="1">
+                        <p><span>V4 features</span></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-green">Adjustable columns</span></p>
+                        <p><span class="text-green">Curved columns</span></p>
+                     </td>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-red">No adjustable columns</span></p>
+                        <p><span class="text-green">Tilting</span></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-red">No detachable cable</span></p>
+                        <p><span class="text-red">No backlight</span></p>
+                        <p><span class="text-red">Handcraft electronics</span></p>
+                        <p><span class="text-red">200&euro;+ (raw materials and building time cost)</span></p>
+                        <p><span class="text-red">10h 3D printing</span></p>
+                        <p><span class="text-red">10h assemble</span></p>
+                     </td>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-green">Detachable cable</span></p>
+                        <p><span class="text-green">RGB</span></p>
+                        <p><span class="text-green">PCB - Much more durable</span></p>
+                        <p><span class="text-green">Under 100&euro; to build</span></p>
+                        <p><span class="text-green">Barely any 3D printing</span></p>
+                        <p><span class="text-green">3h to assemble</span></p>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+          </p> 
+
+          <p>
+            The curved columns could be considered a good or bad thing, depending if you want to use custom keycaps. Because there are only 3 keys per column, tilting the keyboard has nearly the same effect than curving the columns. So the real trade-off are the adjustable columns.
+          </p>
+
+          <p>
+            Why are adjustable columns so important? Every person has different hand sizes and different length fingers. To have the best user experience we should have a keyboard that adapts to us, not us adapting to our keyboard.
+          </p>
+
+          <p>
+            The important part is that the columns are adjustable or that the keyboard adapts to our hands? We think that the second. And that’s what we want to test with V5.
+          </p>
+
+          <p>
+          <table>
+               <tbody>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span>V3</span></p>
+                     </td>
+                     <td class="c17" colspan="1" rowspan="1">
+                        <p><span>V4</span></p>
+                     </td>
+                     <td class="c7" colspan="1" rowspan="1">
+                        <p><span>V5</span></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-green">Adjustable columns</span></p>
+                        <p><span class="text-green">Curved columns</span></p>
+                     </td>
+                     <td class="c17" colspan="1" rowspan="1">
+                        <p><span class="text-red">No adjustable columns</span></p>
+                        <p><span class="text-green">Tilting</span></p>
+                     </td>
+                     <td class="c7" colspan="1" rowspan="1">
+                        <p><span class="text-green"><b>Custom hand design</b></span></p>
+                        <p><span class="text-green">Tilting</span></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td colspan="1" rowspan="1">
+                        <p><span class="text-red">No detachable cable</span></p>
+                        <p><span class="text-red">No backlight</span></p>
+                        <p><span class="text-red">Weak structure</span></p>
+                        <p><span class="text-red">200&euro;+ to build</span></p>
+                        <p><span class="text-red">10h 3D printing</span></p>
+                        <p><span class="text-red">10h assemble</span></p>
+                     </td>
+                     <td class="c17" colspan="1" rowspan="1">
+                        <p><span class="text-green">Detachable cable</span></p>
+                        <p><span class="text-green">RGB</span></p>
+                        <p><span class="text-green">PCB - Much more durable</span></p>
+                        <p><span class="text-green">Under 100&euro; to build</span></p>
+                        <p><span class="text-green">Barely any 3D printing</span></p>
+                        <p><span class="text-green">3h to assemble</span></p>
+                     </td>
+                     <td class="c7" colspan="1" rowspan="1">
+                        <p><span class="text-green">Detachable cable</span></p>
+                        <p><span class="text-green">RGB</span></p>
+                        <p><span class="text-green">Much more durable</span></p>
+                        <p><span class="text-green">Under 100&euro; to build</span></p>
+                        <p><span class="text-green">Barely any 3D printing</span></p>
+                        <p><span class="text-green">3h to assemble</span></p>
+                        <p><span class="text-green"><b>Adjustable thumb cluster</b></span></p>
+                        <p><span class="text-green"><b>Adjustable wrist rest</b></span></p>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+          </p>
+
+          <p>
+            <b>V5</b> - 3D modeled design
+            <div class="text-center">
+              <img class="article-img" src="./assets/closed-beta-6.png">
+              <br />3D printed test (no electronics inside the case) to prove that the adjustable thumb cluster and wrist rest have the correct size and movement range. The V5 won’t have this aesthetics, we want to avoid 3D printing to reduce the cost to the minimum.
+            </div>
+          </p>
+
+          <p>V5 New features:</p>
+
+          <p>
+            <b>Custom hand design</b><br />
+            We have sizes for shoes and we should have sizes for hands too. If we know the exact measures of your hands and fingers, we will be able to create a custom size keyboard and at the same time start working on profiles to create the standard hand sizes.
+          </p>
+
+          <p>
+            <b>Adjustable thumb cluster</b><br />
+            The larger your hand is, the more comfortable it will be that the thumb cluster is further away from the rest of the keyboard. It’s very important for a comfortable hand posture. 
+          </p>
+
+          <p>
+            <b>Adjustable wrist rests</b><br />
+            Same logic as the thumb cluster, the bigger the hand the further away it must be.
+          </p>
+
+          <p>
+            Now, what the closed beta is about?
+          </p>
+
+          <p>We are looking to reduced group of testers to improve the Shortcut features and communication channel between us and the users:
+
+          <ul>
+            <li>We’ve been able to reduce the costs to the minimum and we are selling it to you at cost. The price of each prototype is 75€ + Shipping.</li>
+            <li>The tester group will be hand picked between everyone interested. It will be limited to 50 users.</li>
+            <li>Testers must commit to give frequent feedback and interaction in the forum. The is extremely important, the 50 testers will have a massive impact in the development of the Shortcut and it’s final version.</li>
+            <li>The test duration will be between one and two months.</li>
+          </ul>
+          </p>
+
+          <p>Main closed beta goals:
+
+            <ul>
+              <li>Validate custom hand size design.</li>
+              <li>Test the communication platform.</li>
+              <li>Gather tester's learning curve data.</li>
+              <li>Test and validate the adjustable thumb cluster.</li>
+              <li>Find out optimal default wrist rest size and angle.</li>
+              <li>Create default layouts for multiple languages, programs and games.</li>
+              <li>Test the layout configurator.</li>
+              <li>Test the firmware and add functionalities that users ask for.</li>
+              <li>Create a site with information about ergonomics.</li>
+              <li>Create a guide about Shortcut usage.</li>
+            </ul>
+          </p>
+
+          <p>
+            Soon more updates about the closed beta!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="icon-arrow-up"></i> 
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #333; margin-top: 0px; padding: 50px 0px">
+      <div class="container text-light text-center">
+        <h2>Subscribe to news updates</h2>
+
+        <form action="//shortcutgamingkeyboard.us14.list-manage.com/subscribe/post?u=c457e8e93f3e225e682935455&amp;id=10c5a3f96f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <input type="email" name="EMAIL" class="form-control" placeholder="Email" id="mce-EMAIL">
+            </div><!-- .col-sm-9 -->
+            <div class="col-sm-4">
+              <input type="submit" class="form-control btn btn-default" style="margin: 0px" value="Keep me updated!">
+            </div><!-- .col-sm-3 -->
+          </div>
+
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c457e8e93f3e225e682935455_10c5a3f96f" tabindex="-1" value=""></div>
+
+        </form>
+        <p>* No spam, ever. Your email address will only be used for news updates and you can easily unsubscribe at any time.</p>
+
+        <span><i class="icon-mail"></i> contact@shortcut.gg</span>
+      </div><!-- .container -->
+    </footer>
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="../js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="../js/vendor/preloader.min.js"></script>
+  <script src="../js/vendor/bootstrap.min.js"></script>
+  <script src="../js/vendor/waves.min.js"></script>
+  <script src="../js/vendor/placeholder.js"></script>
+  <script src="../js/vendor/smoothscroll.js"></script>
+  <script src="../js/vendor/waypoints.min.js"></script>
+  <script src="../js/vendor/velocity.min.js"></script>
+  <script src="../js/vendor/owl.carousel.min.js"></script>
+  <script src="../js/vendor/jquery.stellar.min.js"></script>
+  <script src="../js/scripts.js"></script>
+
+</body><!-- <body> -->
+
+</html>
