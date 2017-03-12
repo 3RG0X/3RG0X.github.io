@@ -42,6 +42,11 @@
       border: none;
     }
 
+    .blog-article a {
+      color: #2895F1 !important;
+      font-weight: inherit !important;
+    }
+
     p {
       text-align: justify;
     }
@@ -106,7 +111,7 @@
           <div class="nav-toggle" style="height: 67px"><span></span></div>
 
           <div class="toolbar">
-            <!-- <a href="#">AMA</a> -->
+            <a href="/">Home</a>
             <a href="/blog/">Blog</a>
           </div><!-- .toolbar -->
         </div><!-- .container -->
@@ -114,11 +119,11 @@
     </header>
 
     <!-- Container -->
-    <div class="container">
+    <div class="container blog-article">
 
       <!-- Content -->
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-8 col-lg-offset-2">
           <h1>Issues with the PCB assembly</h1>
           <div class="post-meta">
             <div class="column"><span>Luis "Deilor" Sevilla</span></div>
@@ -128,9 +133,9 @@
           <!-- START CONTENT -->
             <p class="c5"><span class="c0">Over the last week we&rsquo;ve made a bunch of progress but encountered an issue with the PCB assembly.</span></p>
       <p class="c1"><span class="c0"></span></p>
-      <p class="c5"><span>We&rsquo;ve bought 2000 Gateron switches (blue, brown, red and have a few hundred green and yellow), keycaps, electronic components, got the </span><span class="c7"><a class="c3" href="https://www.google.com/url?q=http://conf.shortcut.gg/&amp;sa=D&amp;ust=1489275744304000&amp;usg=AFQjCNGcWrooYzMwySfo0f69S_QCjOuKzw">Shortcut configurator</a></span><span>&nbsp;rolling with </span><span class="c7"><a class="c3" href="https://www.google.com/url?q=https://docs.google.com/document/d/1CeneamhvWVxAH7dvQHv9mU8LnCRXvDKPRNCTUdZ_wJ8/edit%23heading%3Dh.v63jx3ektb86&amp;sa=D&amp;ust=1489275744305000&amp;usg=AFQjCNHYu_rzFsgZu_DM7XEgnZcPpHU3aA">its documentation</a></span><span>, ordered the test PCBs and finished the mechanical design.</span></p>
+      <p class="c5"><span>We&rsquo;ve bought 2000 Gateron switches (blue, brown, red and have a few hundred green and yellow), keycaps, electronic components, got the </span><span class="c7"><a class="c3" href="http://conf.shortcut.gg/">Shortcut configurator</a></span><span>&nbsp;rolling with </span><span class="c7"><a class="c3" href="https://www.google.com/url?q=https://docs.google.com/document/d/1CeneamhvWVxAH7dvQHv9mU8LnCRXvDKPRNCTUdZ_wJ8/edit%23heading%3Dh.v63jx3ektb86&amp;sa=D&amp;ust=1489275744305000&amp;usg=AFQjCNHYu_rzFsgZu_DM7XEgnZcPpHU3aA">its documentation</a></span><span>, ordered the test PCBs and finished the mechanical design.</span></p>
       <p class="c1"><span class="c0"></span></p>
-      <p class="c5"><span class="c4">Mechanical prototype</span></p>
+      <p class="c5"><span class="c4"><b>Mechanical prototype</b></span></p>
       <p class="c1"><span class="c0"></span></p>
       <p class="c5"><span class="c0">This is a fairly accurate 3D model of how the V5 will look:</span></p>
       <p class="c1"><span class="c0"></span></p>
@@ -144,17 +149,19 @@
       <p class="c5"><span class="c0">A hinge enables the tilting and the adjustable system is fairly simple. It all can be laser cut, reducing costs and easing assembly. We still need to test it to be 100% sure it&rsquo;s robust and it doesn&rsquo;t wobble.</span></p>
       <p class="c1"><span class="c0"></span></p>
       <p class="c1"><span class="c0"></span></p>
-      <p class="c5"><span class="c4">PCB</span><span>&nbsp;</span><span class="c8 c4">Assembly</span></p>
+      <p class="c5"><span class="c4"><b>PCB Assembly</b></span></p>
       <p class="c1"><span class="c4 c8"></span></p>
       <p class="text-center"><span><img alt="" src="./assets/issues-pcb-assembly-3.png" title="">
-      V5 PCB Design</span></p>
+      <i>V5 PCB Design</i></span></p>
       <p class="c1"><span class="c0"></span></p>
       <p class="c5"><span class="c0">The next paragraph will get a bit technical but will help explain the issues we are facing.</span></p>
       <p class="c1"><span class="c0"></span></p>
-      <p class="c5"><span>When building electronics, there are two different ways of soldering components: Through Hole (cable or </span><span>component </span><span>leg through a hole and solder it on the other side) or SMT (</span><span class="c7"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Surface-mount_technology&amp;sa=D&amp;ust=1489275744317000&amp;usg=AFQjCNEALPfQqjqp4N3JhzO4WJAe9iWr3g">Surface-mount technology</a></span><span>). The switches are through hole (we will solder them by hand) but all the other components are SMT and although can be soldered by hand, it&rsquo;s much faster and reliable when done by a </span><span class="c7"><a class="c3" href="https://www.google.com/url?q=https://youtu.be/wk7020npEEQ?t%3D1m32s&amp;sa=D&amp;ust=1489275744317000&amp;usg=AFQjCNF1otbeokTyz60Y0LBkVaLhhL2qhw">pick and place machine</a></span><span class="c0">. </span></p>
+      <p class="c5"><span>When building electronics, there are two different ways of soldering components: Through Hole (cable or </span><span>component </span><span>leg through a hole and solder it on the other side) or SMT (</span><span class="c7"><a class="c3" href="https://en.wikipedia.org/wiki/Surface-mount_technology">Surface-mount technology</a></span><span>). The switches are through hole (we will solder them by hand) but all the other components are SMT and although can be soldered by hand, it&rsquo;s much faster and reliable when done by a </span><span class="c7"><a class="c3" href="https://youtu.be/wk7020npEEQ?t%3D1m32s&amp;sa=D&amp;ust=1489275744317000&amp;usg=AFQjCNF1otbeokTyz60Y0LBkVaLhhL2qhw">pick and place machine</a></span><span class="c0">. </span></p>
       <p class="c1"><span class="c0"></span></p>
       <p class="c5"><span class="c0">PCBs can be manufactured in less than a week and components bought and sent in one day but the SMT factories say that require 2-3 weeks to assemble the PCBs and the components. Some of them have options to speed up the process but this doubles or triples the price, making it prohibitive. We are working on finding a manufacturer that can do the job in a few days without charging a ton but there is a very high chance that the PCB assembly will delay the whole process.</span></p>
       <p class="c1"><span class="c0"></span></p>
+
+      <p><br /></p>
           <!-- STOP CONTENT -->
         </div>
       </div>
