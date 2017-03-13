@@ -11350,7 +11350,7 @@ a.image-box {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 991px) {
   .shop-tile {
     display: block;
   }
