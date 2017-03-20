@@ -41,6 +41,24 @@
     a {
       border: none;
     }
+
+    .teammate-1 img {
+      border-radius: 50%;
+    }
+
+    .post-body p {
+      text-align: justify;
+    }
+
+    .post-item .post-thumb {
+      max-height: 380px;
+    }
+
+    .post-item .post-body {
+      text-align: center;
+      min-height: 393px;
+      padding: 17px 24px 36px 24px;
+    }
   </style>
 
   <!--Modernizr / Detectizr-->
@@ -84,15 +102,38 @@
           <!-- Mobile Menu Toggle -->
           <div class="nav-toggle" style="height: 67px"><span></span></div>
 
-          <div class="toolbar">
+          <!-- <div class="toolbar">
             <a href="/blog/">Blog</a>
             <a href="https://twitter.com/shortcutgg" class="">
             <i class="fa fa-twitter"></i>
             @shortcutgg
           </a>
-          </div>
+          </div> -->
         </div><!-- .container -->
       </div><!-- .topbar -->
+
+      <!-- Main Navigation -->
+      <div class="">
+        <nav class="main-navigation">
+          <ul class="menu">
+            <li class="current-menu-item">
+              <a href="/">Home</a>
+            </li>
+            <li class="">
+              <a href="http://conf.shortcut.gg/">Configuration</a>
+            </li>
+            <li class="">
+              <a href="http://community.shortcut.gg/">Community</a>
+            </li>
+            <li class="">
+              <a href="/blog">Blog</a>
+            </li>
+            <li class="">
+              <a href="https://twitter.com/shortcutgg">@shortcut</a>
+            </li>
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div><!-- .container -->
     <!-- </header> -->
     </header>
 
@@ -116,10 +157,9 @@
     </section><!-- .fw-section -->
 
     <!-- Help develop -->
-    <section class="container padding-top-3x padding-bottom-3x">
+    <!-- <section class="container padding-top-3x padding-bottom-3x">
       <div class="row">
         <div class="col-md-5 col-md-push-7 tablet-center mobile-center scrollReveal sr-right">
-          <!-- <div class="padding-top-2x hidden-sm hidden-xs"></div> -->
           <h3>Help develop the Shortcut and win a prototype!</h3>
           <p class="text-lg text-gray">The Shortcut is in beta phase, that's why your feedback is so important.</p>
 
@@ -133,9 +173,9 @@
         <div class="col-md-7 col-md-pull-5 scrollReveal sr-left">
           <div class="padding-top-2x visible-sm visible-xs"></div>
           <img src="./img/Shortcut_2s.jpg" class="block-center" alt="Shortcut">
-        </div>
-      </div><!-- .row -->
-    </section><!-- .container -->
+        </div> -->
+      <!-- </div>.row -->
+    <!-- </section>.container -->
 
     <!-- Project Missions -->
     <section class="fw-section border-top bg-gray padding-top-3x padding-bottom-3x">
@@ -272,8 +312,85 @@
       </div>
     </section>
 
+    <!-- Blog Posts -->
+    <section class="container padding-top-3x padding-bottom-3x">
+      <h2 class="block-title text-center">
+        Read Our Blog
+        <small>Last posts</small>
+      </h2>
+      <div class="grid isotope-grid col-2">
+        <div class="gutter-sizer"></div>
+        <div class="grid-sizer"></div>
+
+        <!-- Post -->
+        <div class="grid-item">
+          <article class="post-item">
+            <a href="/blog/spam-issues-and-blog-update.html" class="post-thumb waves-effect">
+              <img src="./blog/assets/spam-issues/image00.jpg" alt="spam-issues">
+            </a><!-- .post-thumb -->
+            <div class="post-body">
+              <div class="post-meta">
+                <div class="column">
+                  <span>
+                    <i class="icon-head"></i>
+                    <a href="#">Luis "Deilor" Sevilla</a>
+                  </span>
+                </div>
+                <div class="column"><span>13.03.2017</span></div>
+              </div><!-- .post-meta -->
+              <a href="/blog/spam-issues-and-blog-update.html" class="post-title">
+                <h3>Spam issues and blog update</h3>
+              </a>
+              <p>When we made the offer of selling prototypes to take part of the closed beta 130 persons confirmed that they would buy one. From those 130 we picked 50 and emailed them. Many of this people never answered back and when they did, they reported the mails were in spam. During multiple weeks we sent news updates to this 50 testers to later realize that we had to contact again more people.</p>
+
+              <p class="hidden-md">The end result is that we&rsquo;ve sold 45 and we&rsquo;ve learnt a bunch of stuff</p>
+
+              <a href="/blog/spam-issues-and-blog-update.html">Read More</a>
+            </div><!-- .post-body -->
+          </article><!-- .post-item -->
+        </div><!-- .grid-item -->
+
+        <!-- Post -->
+        <div class="grid-item">
+          <article class="post-item">
+            <a href="/blog/closed-beta-progress.html" class="post-thumb waves-effect">
+              <img src="./blog/assets/closed-beta-progress/image00.jpg" alt="spam-issues">
+            </a><!-- .post-thumb -->
+            <div class="post-body">
+              <div class="post-meta">
+                <div class="column">
+                  <span>
+                    <i class="icon-head"></i>
+                    <a href="#">Luis "Deilor" Sevilla</a>
+                  </span>
+                </div>
+                <div class="column"><span>06.03.2017</span></div>
+              </div><!-- .post-meta -->
+              <a href="/blog/closed-beta-progress.html" class="post-title">
+                <h3>Closed beta progress</h3>
+              </a>
+              <p>Apart from the slight delay because of the PCB assembly, we&rsquo;ve been working on all planned this week and we are progressing as expected.</p>
+
+                <p class="hidden-md">We 3D printed, laser cut and tested the design we showed you in the last news update. Basically we are are making everything more compact, robust and user friendly.</p>
+
+              <a href="/blog/closed-beta-progress.html">Read More</a>
+            </div><!-- .post-body -->
+          </article><!-- .post-item -->
+        </div><!-- .grid-item -->
+
+      </div><!-- .grid.isotope-grid.col-2 -->
+    </section><!-- .container -->
+
+    <!-- <section class="container padding-top-2x padding-bottom-2x">
+      <div class="row">
+        <div class="text-center">
+          <img src="./img/Shortcut_3s.jpg" class="block-center" style="width: 100%">
+        </div>
+      </div>
+    </section> -->
+
     <!-- Luis -->
-    <section class="container padding-top-2x padding-bottom-3x">
+    <!-- <section class="container padding-top-2x padding-bottom-3x">
       <div class="row">
         <div class="col-md-5 col-md-push-7 text-center tablet-center mobile-center scrollReveal sr-right">
           <div class="padding-top-3x hidden-sm hidden-xs"></div>
@@ -293,8 +410,42 @@
             @Deilor_
           </a>
         </div>
-      </div><!-- .row -->
-    </section><!-- .container -->
+      </div>.row
+    </section>.container -->
+
+    <section class="container padding-top-2x padding-bottom-3x">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4 scrollReveal sr-bottom sr-delay-3 sr-ease-in-out-back">
+          <div class="teammate-1 text-center">
+            <div class="thumbnail-static">
+              <img src="img/luis.jpg" alt="Luis">
+            </div>
+            <h3 class="teammate-name">Luis "Deilor" Sevilla</h3>
+            <p>Two times EU LCS Champion</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-4 scrollReveal sr-bottom sr-delay-3 sr-ease-in-out-back">
+          <div class="teammate-1 text-center">
+            <div class="thumbnail-static front">
+              <img src="img/Manel.jpg" alt="Manel">
+            </div>
+            <h3 class="teammate-name">Manel Senis</h3>
+            <p>Product manager</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-4 scrollReveal sr-bottom sr-delay-3 sr-ease-in-out-back">
+          <div class="teammate-1 text-center">
+            <div class="thumbnail-static">
+              <img src="img/Matt.jpg" alt="Matt">
+            </div>
+            <h3 class="teammate-name">Matthew Venn</h3>
+            <p>CTO</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Scroll To Top Button -->
     <!-- <a href="#" class="scroll-to-top-btn">
